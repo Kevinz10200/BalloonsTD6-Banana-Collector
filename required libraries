@@ -1,0 +1,5 @@
+PyAutoGUI for screenshots and cursor control
+cv2       (openCV) for processing images
+numpy     as dependency for openCV
+imutils   for non_max_suppression
+pynput    for easy reading and recording of mouse positions
