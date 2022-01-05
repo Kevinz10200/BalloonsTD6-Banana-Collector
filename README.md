@@ -23,6 +23,7 @@ an action.
 left it after the split second the script takes to collect banans.
 
 REQUIRMENTS:
+
 PyAutoGUI for screenshots and cursor control
 cv2       (openCV) for processing images
 numpy     as dependency for openCV
