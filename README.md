@@ -21,3 +21,10 @@ an action.
 
 -Returning cursor to original location prevents cursors from being moved randomly, and the player can expect to find their cursor where they
 left it after the split second the script takes to collect banans.
+
+REQUIRMENTS:
+PyAutoGUI for screenshots and cursor control
+cv2       (openCV) for processing images
+numpy     as dependency for openCV
+imutils   for non_max_suppression
+pynput    for easy reading and recording of mouse positions
