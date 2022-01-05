@@ -4,7 +4,11 @@ Uses periodic screencaps to identify banana farms, and automatically uses cursor
 Uses PyAutoGUI to take a screenshot of entire desktop, then openCV template matching to find potential locations of banana farms,
 cash generating structures that require manual collection within a set amount of time. 
 
-This potentially returns a ton of duplicate positions around single potential farm locations.
+This potentially returns a ton of duplicate positions around single potential farm locations. This is bad because it will take longer
+for the cursor to automatically move to collect, decreasing performance and increasing time which control is taken away from the player
+while not accomplishing anything, increasing player frustration. 
+
+Ideally the player would never notice this script running aside fromtheir banans being automatically collected.
 
 Non-maximal suppression is then applied to reduce the amount of duplicates pointing to a single farm down to one coordinate.
 
