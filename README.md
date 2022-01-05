@@ -1,5 +1,5 @@
 # BaloonsTD6-Banana-Collector
-Uses periodic screencaps to identify banana farms, and automatically uses cursor to collect bananas.
+Uses periodic screencaps (default every 10s) to identify banana farms, and automatically uses cursor to collect bananas.
 
 Uses PyAutoGUI to take a screenshot of entire desktop, then openCV template matching to find potential locations of banana farms,
 cash generating structures that require manual collection within a set amount of time. 
