@@ -11,7 +11,9 @@ Non-maximal suppression is then applied to reduce the amount of duplicates point
 PyAutoGUI then checks to see if any cursor input has been given by the player, if not, the player is assumed to be AFK and the cursor is
 rapidly moved to farm locations after applying non-maximal suppression, collecting bananas. Finally the cursor is returned to the location
 where it was found before collecting the first farm.
-  -Checking for player input means the script will not randomly hijack the cursor from the player while the player might be trying to perform
-   an action.
-  -Returning cursor to original location prevents cursors from being moved randomly, and the player can expect to find their cursor where they
-   left it after the split second the script takes to collect banans.
+
+-Checking for player input means the script will not randomly hijack the cursor from the player while the player might be trying to perform
+an action.
+
+-Returning cursor to original location prevents cursors from being moved randomly, and the player can expect to find their cursor where they
+left it after the split second the script takes to collect banans.
